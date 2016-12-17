@@ -171,7 +171,7 @@ A solution is available on [Github][github] to deploy this reference architectur
 [implementing-a-secure-hybrid-network-architecture-with-internet-access]: ./secure-vnet-dmz.md
 [microsoft_systems_center]: https://www.microsoft.com/server-cloud/products/system-center-2016/
 [monitoring_ad]: https://msdn.microsoft.com/library/bb727046.aspx
-[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
 [running-VMs-for-an-N-tier-architecture-on-Azure]: ./windows-n-tier.md
 [solution-script]: https://raw.githubusercontent.com/mspnp/reference-architectures/master/guidance-identity-adds-trust/Deploy-ReferenceArchitecture.ps1
 [standby-operations-masters]: https://technet.microsoft.com/library/cc794737(v=ws.10).aspx

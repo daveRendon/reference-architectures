@@ -294,11 +294,11 @@ A solution is available on [Github][github] to deploy this reference architectur
 * Learn about [Azure Active Directory B2C][aadb2c].
 
 <!-- links -->
-[azure-cli]: /azure/azure-resource-manager/xplat-cli-azure-resource-manager.md
+[azure-cli]: /azure/azure-resource-manager/xplat-cli-azure-resource-manager
 [vm-recommendations]: ./windows-single-vm.md
 [naming-conventions]: ./guidance-naming-conventions.md
 [implementing-active-directory]: ./adds-extend-domain.md
-[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
 [implementing-a-secure-hybrid-network-architecture]: ./secure-vnet-hybrid.md
 [implementing-a-secure-hybrid-network-architecture-with-internet-access]: ./secure-vnet-dmz.md
 [DRS]: https://technet.microsoft.com/library/dn280945.aspx
@@ -325,7 +325,7 @@ A solution is available on [Github][github] to deploy this reference architectur
 [azure-powershell-download]: https://azure.microsoft.com/documentation/articles/powershell-install-configure/
 [aad]: https://azure.microsoft.com/documentation/services/active-directory/
 [aadb2c]: https://azure.microsoft.com/documentation/services/active-directory-b2c/
-[adfs-intro]: /azure/active-directory/active-directory-aadconnect-azure-adfs.md
+[adfs-intro]: /azure/active-directory/active-directory-aadconnect-azure-adfs
 [hybrid-azure-on-prem-vpn]: ./vpn.md
 [extending-ad-to-azure]: ./adds-extend-domain.md
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx

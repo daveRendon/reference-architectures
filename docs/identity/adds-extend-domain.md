@@ -160,9 +160,9 @@ A solution is available on [Github][github] to deploy this reference architectur
 [ad-ds-ports]: https://technet.microsoft.com/library/dd772723(v=ws.11).aspx
 [adds-resource-forest]: ./adds-resource-forest.md
 [adfs]: ./adfs.md
-[availability-set]: /azure/virtual-machines/virtual-machines-windows-create-availability-set.md
-[azure-active-directory]: /azure/active-directory-domain-services/active-directory-ds-overview.md
-[azure-ad-connect]: /azure/active-directory/active-directory-aadconnect.md
+[availability-set]: /azure/virtual-machines/virtual-machines-windows-create-availability-set
+[azure-active-directory]: /azure/active-directory-domain-services/active-directory-ds-overview
+[azure-ad-connect]: /azure/active-directory/active-directory-aadconnect
 [azure-expressroute]: https://azure.microsoft.com/documentation/articles/expressroute-introduction/
 [azure-powershell]: /powershell/azureps-cmdlets-docs
 [azure-vpn-gateway]: https://azure.microsoft.com/documentation/articles/vpn-gateway-about-vpngateways/
@@ -173,11 +173,11 @@ A solution is available on [Github][github] to deploy this reference architectur
 [implementing-a-secure-hybrid-network-architecture-with-internet-access]: ./secure-vnet-dmz.md
 [microsoft_systems_center]: https://www.microsoft.com/server-cloud/products/system-center-2016/
 [monitoring_ad]: https://msdn.microsoft.com/library/bb727046.aspx
-[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
 [security-considerations]: #security-considerations
 [set-a-static-ip-address]: https://azure.microsoft.com/documentation/articles/virtual-networks-static-private-ip-arm-pportal/
 [standby-operations-masters]: https://technet.microsoft.com/library/cc794737(v=ws.10).aspx
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx
-[vm-windows-sizes]: /azure/virtual-machines/virtual-machines-windows-sizes.md
+[vm-windows-sizes]: /azure/virtual-machines/virtual-machines-windows-sizes
 
 [0]: ../media/guidance-iaas-ra-secure-vnet-ad/figure1.png "Secure hybrid network architecture with Active Directory"

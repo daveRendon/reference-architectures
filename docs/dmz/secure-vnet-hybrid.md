@@ -26,7 +26,7 @@ This article describes best practices for implementing a secure hybrid network t
 This architecture requires a connection to your on-premises datacenter, using either a [VPN gateway][ra-vpn] or an [ExpressRoute][ra-expressroute] connection.
 
 > [!NOTE]
-> Azure has two different deployment models: [Resource Manager](/azure/azure-resource-manager/resource-group-overview.md) and classic. This reference architecture uses Resource Manager, which Microsoft recommends for new deployments.
+> Azure has two different deployment models: [Resource Manager](/azure/azure-resource-manager/resource-group-overview) and classic. This reference architecture uses Resource Manager, which Microsoft recommends for new deployments.
 > 
 > 
 
@@ -206,7 +206,7 @@ A deployment for a reference architecture that implements these recommendations 
 
 <!-- links -->
 
-[availability-set]: /azure/virtual-machines/virtual-machines-windows-create-availability-set.md
+[availability-set]: /azure/virtual-machines/virtual-machines-windows-create-availability-set
 [azurect]: https://github.com/Azure/NetworkMonitoring/tree/master/AzureCT
 [azure-forced-tunneling]: https://azure.microsoft.com/en-gb/documentation/articles/vpn-gateway-forced-tunneling-rm/
 [barracuda-nf]: https://azure.microsoft.com/marketplace/partners/barracudanetworks/barracuda-ng-firewall/
@@ -215,7 +215,7 @@ A deployment for a reference architecture that implements these recommendations 
 [cloud-services-network-security]: https://azure.microsoft.com/documentation/articles/best-practices-network-security/
 [denyall]: https://azure.microsoft.com/marketplace/partners/denyall/denyall-web-application-firewall/
 [fortinet]: https://azure.microsoft.com/marketplace/partners/fortinet/fortinet-fortigate-singlevmfortigate-singlevm/
-[getting-started-with-azure-security]: .//azure/security/azure-security-getting-started.md
+[getting-started-with-azure-security]: .//azure/security/azure-security-getting-started
 [github-folder]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-secure-vnet
 [guidance-expressroute]: ./expressroute.md
 [guidance-expressroute-availability]: ./expressroute.md#availability-considerations
@@ -228,19 +228,19 @@ A deployment for a reference architecture that implements these recommendations 
 [guidance-vpn-gateway-manageability]: ./vpn.md#manageability-considerations
 [guidance-vpn-gateway-scalability]: ./vpn.md#scalability-considerations
 [guidance-vpn-gateway-security]: ./vpn.md#security-considerations
-[ip-forwarding]: /azure/virtual-network/virtual-networks-udr-overview.md#ip-forwarding
+[ip-forwarding]: /azure/virtual-network/virtual-networks-udr-overview#ip-forwarding
 [kemp-loadmaster]: https://azure.microsoft.com/marketplace/partners/kemptech/vlm-azure/
 [ra-expressroute]: ./expressroute.md
 [ra-n-tier]: ./windows-n-tier.md
 [ra-vpn]: ./vpn.md
 [ra-vpn-failover]: ./expressroute-vpn-failover.md
-[rbac]: /azure/active-directory/role-based-access-control-configure.md
-[rbac-custom-roles]: /azure/active-directory/role-based-access-control-custom-roles.md
-[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
+[rbac]: /azure/active-directory/role-based-access-control-configure
+[rbac-custom-roles]: /azure/active-directory/role-based-access-control-custom-roles
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
 [routing-and-remote-access-service]: https://technet.microsoft.com/library/dd469790(v=ws.11).aspx
 [securesphere]: https://azure.microsoft.com/marketplace/partners/imperva/securesphere-waf-for-azr/
 [security-principle-of-least-privilege]: https://msdn.microsoft.com/library/hdb58b2f(v=vs.110).aspx#Anchor_1
-[udr-overview]: /azure/virtual-network/virtual-networks-udr-overview.md
+[udr-overview]: /azure/virtual-network/virtual-networks-udr-overview
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx
 [vns3]: https://azure.microsoft.com/marketplace/partners/cohesive/cohesiveft-vns3-for-azure/
 [wireshark]: https://www.wireshark.org/
