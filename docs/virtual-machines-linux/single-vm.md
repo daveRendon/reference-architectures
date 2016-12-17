@@ -22,8 +22,8 @@ ms.author: mwasson
 [!INCLUDE [pnp-branding](../_includes/header.md)]
 
 > [!div class="op_single_selector"]
-> * [Running a Linux VM on Azure](linux-single-vm.md)
-> * [Running a Windows VM on Azure](windows-single-vm.md)
+> * [Running a Linux VM on Azure](single-vm.md)
+> * [Running a Windows VM on Azure](../virtual-machines-windows/single-vm.md)
 > 
 > 
 

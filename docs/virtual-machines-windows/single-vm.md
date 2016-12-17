@@ -22,8 +22,8 @@ ms.author: mwasson
 [!INCLUDE [pnp-branding](../_includes/header.md)]
 
 > [!div class="op_single_selector"]
-> * [Running a Linux VM on Azure](linux-single-vm.md)
-> * [Running a Windows VM on Azure](windows-single-vm.md)
+> * [Running a Linux VM on Azure](../virtual-machines-linux/single-vm.md)
+> * [Running a Windows VM on Azure](single-vm.md)
 > 
 > 
 This article outlines a set of proven practices for running a Windows virtual machine (VM) on Azure, paying attention to scalability, availability, manageability, and security. 

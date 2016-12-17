@@ -23,8 +23,8 @@ ms.author: mwasson
 > [!INCLUDE [pnp-branding](../_includes/header.md)]
 > 
 > [!div class="op_single_selector"]
-> * [Running Linux VMs for an N-tier architecture on Azure](linux-n-tier.md)
-> * [Running Windows VMs for an N-tier architecture on Azure](windows-n-tier.md)
+> * [Running Linux VMs for an N-tier architecture on Azure](../virtual-machines-linux/n-tier.md)
+> * [Running Windows VMs for an N-tier architecture on Azure](n-tier.md)
 > 
 > 
 
@@ -192,6 +192,12 @@ A deployment for this reference architecture is available on [GitHub][github-fol
 To achieve high availability for this reference architecture, deploy to multiple regions. For more information, see [Running Windows VMs in multiple regions for high availability][multi-dc].
 
 <!-- links -->
+[dmz]: ../dmz/secure-vnet-dmz.md
+[multi-dc]: multi-region-application.md
+[multi-vm]: multi-vm.md
+[n-tier]: n-tier.md
+
+[naming conventions]: /azure/guidance/guidance-naming-conventions
 
 [arm-templates]: https://azure.microsoft.com/documentation/articles/resource-group-authoring-templates/
 [azure-administration]: /azure/automation/automation-intro
@@ -203,16 +209,11 @@ To achieve high availability for this reference architecture, deploy to multiple
 [bastion host]: https://en.wikipedia.org/wiki/Bastion_host
 [cidr]: https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
 [chef]: https://www.chef.io/solutions/azure/
-[dmz]: secure-vnet-dmz.md
 [github-folder]: https://github.com/mspnp/reference-architectures/tree/master/guidance-compute-n-tier-sql
 [lb-external-create]: /azure/load-balancer/load-balancer-get-started-internet-portal
 [lb-internal-create]: /azure/load-balancer/load-balancer-get-started-ilb-arm-portal
 [load-balancer-external]: /azure/load-balancer/load-balancer-internet-overview
 [load-balancer-internal]: /azure/load-balancer/load-balancer-internal-overview
-[multi-dc]: windows-multi-region.md
-[multi-vm]: multi-vm.md
-[n-tier]: windows-n-tier.md
-[naming conventions]: guidance-naming-conventions.md
 [nsg]: /azure/virtual-network/virtual-networks-nsg
 [operations-management-suite]: https://www.microsoft.com/server-cloud/operations-management-suite/overview.aspx
 [plan-network]: /azure/virtual-network/virtual-network-vnet-plan-design-arm

@@ -23,8 +23,8 @@ ms.author: mwasson
 [!INCLUDE [pnp-branding](../_includes/header.md)]
 
 > [!div class="op_single_selector"]
-> * [Running Linux VMs for an N-tier architecture on Azure](linux-n-tier.md)
-> * [Running Windows VMs for an N-tier architecture on Azure](windows-n-tier.md)
+> * [Running Linux VMs for an N-tier architecture on Azure](n-tier.md)
+> * [Running Windows VMs for an N-tier architecture on Azure](../virtual-machines-windows/n-tier.md)
 > 
 > 
 

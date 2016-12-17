@@ -168,6 +168,12 @@ A deployment for this reference architecture is available on [GitHub][github-fol
 Placing several VMs behind a load balancer is a building block for creating multi-tier architectures. For more information, see [Running Windows VMs for an N-tier architecture on Azure][n-tier-windows] and [Running Linux VMs for an N-tier architecture on Azure][n-tier-linux]
 
 <!-- Links -->
+[n-tier-linux]: ../virtual-machines-linux/n-tier.md
+[n-tier-windows]: n-tier.md
+[single vm]: single-vm.md
+
+[naming conventions]: /azure/guidance/guidance-naming-conventions
+
 [availability set]: /azure/virtual-machines/virtual-machines-windows-manage-availability
 [availability set ch9]: https://channel9.msdn.com/Series/Microsoft-Azure-Fundamentals-Virtual-Machines/08
 [azure-automation]: https://azure.microsoft.com/documentation/services/automation/
@@ -180,14 +186,10 @@ Placing several VMs behind a load balancer is a building block for creating mult
 [health-probe-ip]: /azure/virtual-network/virtual-networks-nsg#special-rules
 [load balancer]: /azure/load-balancer/load-balancer-get-started-internet-arm-cli
 [load balancer hashing]: /azure/load-balancer/load-balancer-overview#load-balancer-features
-[n-tier-linux]: linux-n-tier.md
-[n-tier-windows]: windows-n-tier.md
-[naming conventions]: guidance-naming-conventions.md
 [network-security]: /azure/guidance/best-practices-network-security
 [nsg]: /azure/virtual-network/virtual-networks-nsg
 [resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview 
 [Runbook Gallery]: /azure/automation/automation-runbook-gallery#runbooks-in-runbook-gallery
-[single vm]: windows-single-vm.md
 [subscription-limits]: /azure/azure-subscription-service-limits
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx
 [vm-disk-limits]: /azure/azure-subscription-service-limits#virtual-machine-disk-limits

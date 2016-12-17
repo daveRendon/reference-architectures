@@ -22,8 +22,8 @@ ms.author: mwasson
 [!INCLUDE [pnp-branding](../_includes/header.md)]
 
 > [!div class="op_single_selector"]
-> * [Running Linux VMs in multiple regions for high availability](linux-multi-region.md)
-> * [Running Windows VMs in multiple regions for high availability](windows-multi-region.md)
+> * [Running Linux VMs in multiple regions for high availability](../virtual-machines-linux/multi-region-application.md)
+> * [Running Windows VMs in multiple regions for high availability](multi-region-application.md)
 >
 >
 
@@ -189,11 +189,11 @@ Measure the recovery times and verify they meet your business requirements. Test
 This series has focused on pure cloud deployments. Enterprise scenarios often require a hybrid network, connecting an on-premises network with an Azure virtual network. To learn how to build such a hybrid network, see [Implementing a Hybrid Network Architecture with Azure and On-premises VPN][hybrid-vpn].
 
 <!-- Links -->
+[hybrid-vpn]: ../hybrid-networking/vpn.md
 
 [azure-sla]: https://azure.microsoft.com/support/legal/sla/
 [azure-sql-db]: https://azure.microsoft.com/documentation/services/sql-database/
 [health-endpoint-monitoring-pattern]: https://msdn.microsoft.com/library/dn589789.aspx
-[hybrid-vpn]: vpn.md
 [install-azure-cli]: /azure/xplat-cli-install
 [regional-pairs]: /azure/guidance/best-practices-availability-paired-regions
 [resource groups]: /azure/azure-resource-manager/resource-group-overview
@@ -211,4 +211,5 @@ This series has focused on pure cloud deployments. Enterprise scenarios often re
 [vnet-to-vnet]: /azure/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps
 [vpn-gateway]: /azure/vpn-gateway/vpn-gateway-about-vpngateways
 [wsfc]: https://msdn.microsoft.com/library/hh270278.aspx
+
 [0]: ../media/blueprints/compute-multi-dc.png "Highly available network architecture for Azure N-tier applications"
