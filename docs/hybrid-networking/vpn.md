@@ -492,9 +492,13 @@ Once you have your Azure VPN gateway functioning correctly, you can expand your 
 
 <!-- links -->
 
-[implementing-a-multi-tier-architecture-on-Azure]: ./windows-n-tier.md
+[implementing-a-multi-tier-architecture-on-Azure]: ../virtual-machines-windows/n-tier.md
+[adds-extend-domain]: ../identity/adds-extend-domain.md
+[expressroute]: ../hybrid-networking/expressroute.md
+
+[naming conventions]: /azure/guidance/guidance-naming-conventions.md
+
 [resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
-[adds-extend-domain]: adds-extend-domain.md
 [arm-templates]: /azure/resource-group-authoring-templates
 [azure-cli]: /azure/virtual-machines-command-line-tools
 [azure-portal]: /azure/azure-portal/resource-group-portal
@@ -534,8 +538,6 @@ Once you have your Azure VPN gateway functioning correctly, you can expand your 
 [configuring-dns]: /azure/virtual-network/virtual-networks-manage-dns-in-vnet
 [stormshield]: https://azure.microsoft.com/marketplace/partners/stormshield/stormshield-network-security-for-cloud/
 [vpn-appliance-ipsec]: /azure/vpn-gateway/vpn-gateway-about-vpn-devices#ipsec-parameters
-[expressroute]: ./expressroute.md
-[naming conventions]: ./guidance-naming-conventions.md
 [solution-script]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-vpn/Deploy-ReferenceArchitecture.ps1
 [solution-script-bash]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-vpn/deploy-reference-architecture.sh
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx

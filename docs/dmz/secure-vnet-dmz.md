@@ -134,16 +134,15 @@ A deployment for a reference architecture that implements these recommendations 
 
 [availability-set]: /azure/virtual-machines/virtual-machines-windows-manage-availability
 [github-folder]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-secure-vnet-dmz
-[guidance-vpn-gateway]: ./vpn.md
+
 [implementing-a-multi-tier-architecture-on-Azure]: ./guidance-compute-3-tier-vm.md
 [implementing-a-secure-hybrid-network-architecture]: ./secure-vnet-hybrid.md
 [iptables]: https://help.ubuntu.com/community/IptablesHowTo
 [lb-probe]: /azure/load-balancer/load-balancer-custom-probe-overview
 [load-balancer]: /azure/load-balancer/load-balancer-Internet-overview
 [network-security-group]: /azure/virtual-network/virtual-networks-nsg
-[ra-vpn]: ./vpn.md
-[ra-expressroute]: ./expressroute.md
+
 [resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx
-[vpn-failover]: ./expressroute-vpn-failover.md
+
 [0]: ../media/blueprints/hybrid-network-secure-vnet-dmz.png "Secure hybrid network architecture"
