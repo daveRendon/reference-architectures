@@ -48,7 +48,7 @@ This reference architecture focuses on active/passive with hot standby, using Tr
 
 ## Architecture diagram
 
-The following diagram builds on the architecture shown in [Running Linux VMs for an N-tier architecture on Azure](linux-n-tier.md). 
+The following diagram builds on the architecture shown in [Running Linux VMs for an N-tier architecture on Azure](n-tier.md). 
 
 > A Visio document that includes this architecture diagram is available for download from the [Microsoft download center][visio-download]. This diagram is on the "Compute - multi region (Linux)" page.
 > 
@@ -123,7 +123,7 @@ We recommend [DataStax Enterprise][datastax] for production use. For more inform
 * Assign a public IP address to each node. This enables the clusters to communicate across regions using the Azure backbone infrastructure, providing high throughput at low cost.
 * Secure nodes using the appropriate firewall and network security group (NSG) configurations, allowing traffic only to and from known hosts, including clients and other cluster nodes. Note that Cassandra uses different ports for communication, OpsCenter, Spark, and so forth. For port usage in Cassandra, see [Configuring firewall port access][cassandra-ports].
 * Use SSL encryption for all [client-to-node][ssl-client-node] and [node-to-node][ssl-node-node] communications.
-* Within a region, follow the guidelines in [Cassandra recommendations](linux-n-tier.md#cassandra).
+* Within a region, follow the guidelines in [Cassandra recommendations](n-tier.md#cassandra).
 
 ## Availability considerations
 

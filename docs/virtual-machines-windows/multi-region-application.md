@@ -46,7 +46,7 @@ This reference architecture focuses on active/passive with hot standby, using Tr
 
 ## Architecture diagram
 
-The following diagram builds on the architecture shown in [Running Windows VMs for an N-tier architecture on Azure](windows-n-tier.md).
+The following diagram builds on the architecture shown in [Running Windows VMs for an N-tier architecture on Azure](n-tier.md).
 
 > A Visio document that includes this architecture diagram is available for download at the [Microsoft download center][visio-download]. This diagram is on the "Compute - multi region (Windows)" page.
 > 
@@ -146,7 +146,7 @@ To configure the availability group:
     >
     >
 
-For more information, see [Running Windows VMs for an N-tier architecture on Azure](windows-n-tier.md).
+For more information, see [Running Windows VMs for an N-tier architecture on Azure](n-tier.md).
 
 ## Availability considerations
 

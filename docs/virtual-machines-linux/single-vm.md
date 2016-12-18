@@ -241,7 +241,6 @@ In order for the [SLA for Virtual Machines][vm-sla] to apply, you must deploy tw
 [vm-size-tables]: /azure/virtual-machines/virtual-machines-windows-sizes#size-tables
 [vm-sla]: https://azure.microsoft.com/support/legal/sla/virtual-machines/v1_0/
 [readme]: https://github.com/mspnp/reference-architectures/blob/master/guidance-compute-single-vm
-[components]: #Solution-components
 [blocks]: https://github.com/mspnp/template-building-blocks
-[0]: ./media/guidance-blueprints/compute-single-vm.png "Single Linux VM architecture in Azure"
+[0]: ../media/guidance-blueprints/compute-single-vm.png "Single Linux VM architecture in Azure"
 

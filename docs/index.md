@@ -29,13 +29,13 @@ Many of the architectures are progressive; building on top of preceding architec
 ## Designing your infrastructure for resiliency
 This series begins with recommended practices for optimal VM configuration and culminates in a multi-region deployment with failover.
 
-* [Running a Windows VM on Azure](virtual-machine-windows/single-vm.md)
-* [Running a Linux VM on Azure](virtual-machine-linux/single-vm.md)
-* [Running multiple VMs for scalability and availability](virtual-machine-windows/multi-vm.md)
-* [Running Windows VMs for an N-tier architecture](virtual-machine-windows/n-tier.md)
-* [Running Linux VMs for an N-tier architecture](virtual-machine-linux/n-tier.md)
-* [Running Windows VMs in multiple regions for high availability](virtual-machine-windows/multi-region-application.md)
-* [Running Linux VMs in multiple regions for high availability](virtual-machine-linux/multi-region-application.md)
+* [Running a Windows VM on Azure](virtual-machines-windows/single-vm.md)
+* [Running a Linux VM on Azure](virtual-machines-linux/single-vm.md)
+* [Running multiple VMs for scalability and availability](virtual-machines-windows/multi-vm.md)
+* [Running Windows VMs for an N-tier architecture](virtual-machines-windows/n-tier.md)
+* [Running Linux VMs for an N-tier architecture](virtual-machines-linux/n-tier.md)
+* [Running Windows VMs in multiple regions for high availability](virtual-machines-windows/multi-region-application.md)
+* [Running Linux VMs in multiple regions for high availability](virtual-machines-linux/multi-region-application.md)
 
 ## Connecting your on-premises network to Azure
 This series starts by demonstrating the ways to connect your existing network to Azure. Then it expands to cover requirements for availability and security.
@@ -53,9 +53,9 @@ This series covers proven practices on creating DMZ in Azure to secure connectio
 ## Providing Identity services
 This series starts by demonstrating how to use Azure Active Directory to provide user authentication in Azure. Then it expands to cover complex scenarios extending your ADDS infrastructure to Azure, and using ADFS for delegation.
 
-* [Implementing Azure Active Directory](identity/aad.md)
+* [Implementing Azure Active Directory](identity/azure-ad.md)
 * [Extending Active Directory Directory Services (ADDS) to Azure](identity/adds-extend-domain.md)
-* [Creating a Active Directory Directory Services (ADDS) resource forest in Azure](identity/adds-resource-forest.md)
+* [Creating a Active Directory Directory Services (ADDS) resource forest in Azure](identity/adds-forest.md)
 * [Implementing Active Directory Federation Services (ADFS) in Azure](identity/adfs.md)
 
 ## Architecting scalable web application using Azure PaaS

@@ -188,6 +188,7 @@ If you need to change the deployment to match your needs, follow the instruction
 In order for the [SLA for Virtual Machines][vm-sla] to apply, you must deploy two or more instances in an availability set. For more information, see [Running multiple VMs on Azure][multi-vm].
 
 <!-- links -->
+[0]: ../media/guidance-blueprints/compute-single-vm.png "Single Windows VM architecture in Azure"
 
 [audit-logs]: https://azure.microsoft.com/blog/analyze-azure-audit-logs-in-powerbi-more/
 [availability-set]: /azure/virtual-machines/virtual-machines-windows-create-availability-set
@@ -234,6 +235,5 @@ In order for the [SLA for Virtual Machines][vm-sla] to apply, you must deploy tw
 [vm-resize]: /azure/virtual-machines/virtual-machines-linux-change-vm-size
 [vm-sla]: https://azure.microsoft.com/support/legal/sla/virtual-machines/v1_0/
 [vm-size-tables]: /azure/virtual-machines/virtual-machines-windows-sizes#size-tables
-[0]: ./media/guidance-blueprints/compute-single-vm.png "Single Windows VM architecture in Azure"
 [readme]: https://github.com/mspnp/reference-architectures/blob/master/guidance-compute-single-vm
 [blocks]: https://github.com/mspnp/template-building-blocks

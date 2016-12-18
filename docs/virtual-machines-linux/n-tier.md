@@ -174,9 +174,9 @@ To achieve high availability for this reference architecture, [deploy to multipl
 [lb-internal-create]: /azure/load-balancer/load-balancer-get-started-ilb-arm-portal
 [load-balancer-external]: /azure/load-balancer/load-balancer-internet-overview
 [load-balancer-internal]: /azure/load-balancer/load-balancer-internal-overview
-[multi-dc]: linux-multi-region.md
-[multi-vm]: multi-vm.md
-[naming conventions]: guidance-naming-conventions.md
+[multi-dc]: multi-region-application.md
+[multi-vm]: ../virtual-machines-windows/multi-vm.md?toc=%2fazure%2farchitecture%24virtual-machines-linux%2f/toc.json
+[naming conventions]: /azure/guidance/guidance-naming-conventions
 [nsg]: /azure/virtual-network/virtual-networks-nsg
 [nsg-rules]: /azure/azure-resource-manager/best-practices-resource-manager-security#network-security-groups
 [operations-management-suite]: https://www.microsoft.com/server-cloud/operations-management-suite/overview.aspx
