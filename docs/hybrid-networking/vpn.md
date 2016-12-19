@@ -496,7 +496,7 @@ Once you have your Azure VPN gateway functioning correctly, you can expand your 
 [adds-extend-domain]: ../identity/adds-extend-domain.md
 [expressroute]: ../hybrid-networking/expressroute.md
 
-[naming conventions]: /azure/guidance/guidance-naming-conventions.md
+[naming conventions]: /azure/guidance/guidance-naming-conventions
 
 [resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
 [arm-templates]: /azure/resource-group-authoring-templates
@@ -530,7 +530,7 @@ Once you have your Azure VPN gateway functioning correctly, you can expand your 
 [azure-vm-diagnostics]: https://azure.microsoft.com/blog/windows-azure-virtual-machine-monitoring-with-wad-extension/
 [application-insights]: /azure/application-insights/app-insights-overview-usage
 [forced-tunneling]: https://azure.microsoft.com/documentation/articles/vpn-gateway-about-forced-tunneling/
-[getting-started-with-azure-security]: .//azure/security/azure-security-getting-started
+[getting-started-with-azure-security]: /azure/security/azure-security-getting-started
 [vpn-appliances]: /azure/vpn-gateway/vpn-gateway-about-vpn-devices
 [installing-ad]: /azure/active-directory/active-directory-install-replica-active-directory-domain-controller
 [deploying-ad]: https://msdn.microsoft.com/library/azure/jj156090.aspx

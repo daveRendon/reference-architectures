@@ -152,14 +152,18 @@ A solution is available on [Github][github] to deploy this reference architectur
 * Learn the best practices for [creating an Active Directory Federation Services (AD FS) infrastructure][adfs] in Azure.
 
 <!-- links -->
+[adds-resource-forest]: adds-forest.md
+[adfs]: adfs.md
+[guidance-identity-aad]: azure-ad.md
+
+[implementing-a-secure-hybrid-network-architecture]: ../dmz/secure-vnet-hybrid.md
+[implementing-a-secure-hybrid-network-architecture-with-internet-access]: ../dmz/secure-vnet-dmz.md
 
 [active-directory-domain-services]: https://technet.microsoft.com/library/dd448614.aspx
 [ad-azure-guidelines]: https://msdn.microsoft.com/library/azure/jj156090.aspx
 [adds-data-disks]: https://msdn.microsoft.com/library/azure/jj156090.aspx#BKMK_PlaceDB
 [ad-ds-operations-masters]: https://technet.microsoft.com/library/cc779716(v=ws.10).aspx
 [ad-ds-ports]: https://technet.microsoft.com/library/dd772723(v=ws.11).aspx
-[adds-resource-forest]: ./adds-resource-forest.md
-[adfs]: ./adfs.md
 [availability-set]: /azure/virtual-machines/virtual-machines-windows-create-availability-set
 [azure-active-directory]: /azure/active-directory-domain-services/active-directory-ds-overview
 [azure-ad-connect]: /azure/active-directory/active-directory-aadconnect
@@ -168,9 +172,6 @@ A solution is available on [Github][github] to deploy this reference architectur
 [azure-vpn-gateway]: https://azure.microsoft.com/documentation/articles/vpn-gateway-about-vpngateways/
 [capacity-planning-for-adds]: http://social.technet.microsoft.com/wiki/contents/articles/14355.capacity-planning-for-active-directory-domain-services.aspx
 [GitHub]: https://github.com/mspnp/reference-architectures/tree/master/guidance-ra-identity-adds
-[guidance-identity-aad]: aad.md
-[implementing-a-secure-hybrid-network-architecture]: ./secure-vnet-hybrid.md
-[implementing-a-secure-hybrid-network-architecture-with-internet-access]: ./secure-vnet-dmz.md
 [microsoft_systems_center]: https://www.microsoft.com/server-cloud/products/system-center-2016/
 [monitoring_ad]: https://msdn.microsoft.com/library/bb727046.aspx
 [resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview

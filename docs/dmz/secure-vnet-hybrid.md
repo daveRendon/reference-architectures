@@ -149,7 +149,7 @@ For more information about the scalability of Azure gateways, see the scalabilit
 
 As mentioned, the reference architecture uses a pool of NVA devices behind a load balancer. The load balancer uses a health probe to monitor each NVA and will remove any unresponsive NVAs from the pool.
 
-If you're using Azure ExpressRoute to provide connectivity between the VNet and on-premises network, [configure a VPN gateway to provide failover][guidance-vpn-failover] if the ExpressRoute connection becomes unavailable.
+If you're using Azure ExpressRoute to provide connectivity between the VNet and on-premises network, [configure a VPN gateway to provide failover][ra-vpn-failover] if the ExpressRoute connection becomes unavailable.
 
 For specific information on maintaining availability for VPN and ExpressRoute connections, see the availability considerations in [Implementing a hybrid network architecture with Azure and on-premises VPN][guidance-vpn-gateway-availability] and [Implementing a hybrid network architecture with Azure ExpressRoute][guidance-expressroute-availability]. 
 
@@ -198,7 +198,7 @@ A deployment for a reference architecture that implements these recommendations 
 ## Next steps
 
 * Learn how to implement a [DMZ between Azure and the Internet](secure-vnet-dmz.md).
-* Learn how to implement a [highly available hybrid network architecture](expressroute-vpn-failover.md).
+* Learn how to implement a [highly available hybrid network architecture][ra-vpn-failover].
 * For more information about managing network security with Azure, see [Microsoft cloud services and network security][cloud-services-network-security].
 * For detailed information about protecting resources in Azure, see [Getting started with Microsoft Azure security][getting-started-with-azure-security]. 
 * For additional details on addressing security concerns across an Azure gateway connection, see [Implementing a hybrid network architecture with Azure and on-premises VPN][guidance-vpn-gateway-security] and [Implementing a hybrid network architecture with Azure ExpressRoute][guidance-expressroute-security].
@@ -222,7 +222,6 @@ A deployment for a reference architecture that implements these recommendations 
 [guidance-expressroute-manageability]: ../hybrid-networking/expressroute.md#manageability-considerations
 [guidance-expressroute-security]: ../hybrid-networking/expressroute.md#security-considerations
 [guidance-expressroute-scalability]: ../hybrid-networking/expressroute.md#scalability-considerations
-[guidance-vpn-failover]: ../hybrid-networking/expressroute-vpn-failover.md
 [guidance-vpn-gateway]: ../hybrid-networking/vpn.md
 [guidance-vpn-gateway-availability]: ../hybrid-networking/vpn.md#availability-considerations
 [guidance-vpn-gateway-manageability]: ../hybrid-networking/vpn.md#manageability-considerations

@@ -296,6 +296,10 @@ If you have an existing on-premises infrastructure already configured with a sui
 * See [Implementing a highly available hybrid network architecture][highly-available-network-architecture] for information about increasing the availability of a hybrid network based on ExpressRoute by failing over to a VPN connection.
 
 <!-- links -->
+[forced-tuneling]: ../dmz/secure-vnet-hybrid.md
+[highly-available-network-architecture]: ./expressroute-vpn-failover.md
+[naming-conventions]: /azure/guidance/guidance-naming-conventions
+
 [expressroute-technical-overview]: /azure/expressroute/expressroute-introduction
 [resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
 [azure-powershell]: /azure/powershell-azure-resource-manager
@@ -310,10 +314,7 @@ If you have an existing on-premises infrastructure already configured with a sui
 [expressroute-limits]: /azure/azure-subscription-service-limits#networking-limits
 [sample-script]: #sample-solution-script
 [azurect]: https://github.com/Azure/NetworkMonitoring/tree/master/AzureCT
-[forced-tuneling]: ./secure-vnet-hybrid.md
-[highly-available-network-architecture]: ./expressroute-vpn-failover.md
 [arm-templates]: /azure/resource-group-authoring-templates
-[naming-conventions]: ./guidance-naming-conventions.md
 [solution-script]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-er/Deploy-ReferenceArchitecture.ps1
 [solution-script-bash]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-er/deploy-reference-architecture.sh
 [vnet-parameters]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-er/parameters/virtualNetwork.parameters.json
